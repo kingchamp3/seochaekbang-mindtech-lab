@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>서책방 마인드테크 랩 | SEOCHAEKBANG MINDTECH LAB</title>
-  <meta name="description" content="인간을 이해하고, 지능의 미래를 탐구하다. 심리학과 인공지능을 두 축으로 삼는 지식 연구 브랜드." />
+  <meta name="description" content="인간을 이해하고, 지능의 미래를 탐구하다." />
   <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
@@ -14,7 +14,6 @@
     <div class="nav-inner">
       <a href="#home" class="logo">서책방 마인드테크 랩</a>
       <div class="nav-links">
-        <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#psychology">심리연구소</a>
         <a href="#ai">AI 연구소</a>
@@ -24,112 +23,91 @@
   </nav>
 
   <header class="hero" id="home">
-    <div class="hero-inner">
+    <div class="hero-content">
       <p class="eyebrow">SEOCHAEKBANG MINDTECH LAB</p>
-      <h1>서책방 마인드테크 랩</h1>
-      <p class="slogan" id="slogan"></p>
-      <p class="slogan-en" id="slogan-en"></p>
-      <div class="doors">
-        <a href="#psychology" class="door mint">
-          <div class="door-icon">🧠</div>
-          <h2>심리연구소</h2>
-          <p>마음을 읽는 심리학</p>
-        </a>
-        <a href="#ai" class="door blue">
-          <div class="door-icon">🤖</div>
-          <h2>AI 연구소</h2>
-          <p>가능성을 확장하는 AI</p>
-        </a>
+      <h1>
+        <span class="line">인간을 이해하고,</span>
+        <span class="line">지능의 미래를</span>
+        <span class="line accent">탐구하다.</span>
+      </h1>
+      <p class="hero-sub">심리학과 인공지능을 두 축으로<br>인간의 마음과 기술의 가능성을 함께 탐구합니다.</p>
+      <div class="hero-actions">
+        <a href="#psychology" class="btn primary">심리연구소</a>
+        <a href="#ai" class="btn secondary">AI 연구소</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="orbit">
+        <div class="node mind">🧠</div>
+        <div class="node tech">🤖</div>
+        <div class="center">Mind × Tech</div>
       </div>
     </div>
   </header>
 
-  <section class="section fade-in" id="about">
-    <div class="container narrow">
-      <h2>About</h2>
-      <div class="about-text">
-        <p class="lead">서책방 마인드테크 랩은 심리학과 인공지능을 동등한 전문 분야로 다루는 통합 연구 브랜드입니다.</p>
-        <p>사람의 마음을 이해하는 심리학과, 가능성을 확장하는 AI를 연구하고, 배우고, 나누며, 일상과 사회에 긍정적인 변화를 만들어가고 있습니다.</p>
-        <p>우리는 학술적 근거를 정확하게 전달하되, 일상 사례를 통해 쉽게 설명합니다.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="section fade-in" id="psychology">
+  <section class="section" id="about">
     <div class="container">
-      <div class="section-header mint">
-        <span class="tag">Psychology</span>
-        <h2>심리연구소</h2>
-        <p>‘서책방의 심리연구소’ 영상과 글을 모아봅니다.</p>
+      <div class="section-label">About</div>
+      <h2>두 분야를 동등하게<br>다루는 연구 브랜드</h2>
+      <div class="about-grid">
+        <div class="about-card"><div class="num">01</div><h3>심리학</h3><p>인간의 감정, 인지, 행동, 관계를 과학적으로 이해하고 일상 언어로 풀어냅니다.</p></div>
+        <div class="about-card"><div class="num">02</div><h3>인공지능</h3><p>AI의 가능성과 한계를 정확하게 파악하고, 실질적인 활용 역량을 지향합니다.</p></div>
+        <div class="about-card"><div class="num">03</div><h3>융합</h3><p>인간과 AI가 만나는 지점에서 새로운 질문을 발견하고 답을 찾아갑니다.</p></div>
       </div>
-      <div class="content-grid">
-        <a href="#" class="content-card"><div class="placeholder">최신 영상</div><h3>마음을 읽는 심리학</h3><p>일상에서 만나는 심리학 이야기.</p></a>
-        <a href="#" class="content-card"><div class="placeholder">블로그</div><h3>관계와 성장</h3><p>심리학으로 보는 관계와 자기이해.</p></a>
-        <a href="#" class="content-card"><div class="placeholder">콘텐츠</div><h3>감정과 인지</h3><p>감정을 이해하고 다루는 방법.</p></a>
-      </div>
-      <p class="note">유튜브·티스토리 최신 콘텐츠가 자동으로 연동될 예정입니다.</p>
     </div>
   </section>
 
-  <section class="section gray fade-in" id="ai">
+  <section class="section alt" id="psychology">
     <div class="container">
-      <div class="section-header blue">
-        <span class="tag">AI</span>
-        <h2>AI 연구소</h2>
-        <p>AI 활용과 자동화, 가능성과 한계를 다룹니다.</p>
-      </div>
-      <div class="content-grid">
-        <a href="#" class="content-card"><div class="placeholder">가이드</div><h3>생성형 AI 활용</h3><p>일상과 업무에 바로 쓸 수 있는 방법.</p></a>
-        <a href="#" class="content-card"><div class="placeholder">자동화</div><h3>AI 자동화 사례</h3><p>반복 작업을 줄이는 실질적인 접근.</p></a>
-        <a href="#" class="content-card"><div class="placeholder">인사이트</div><h3>AI와 사회</h3><p>기술이 개인과 사회에 미치는 영향.</p></a>
+      <div class="section-label mint">Psychology</div>
+      <h2>심리연구소</h2>
+      <p class="section-desc">‘서책방의 심리연구소’ 영상과 글을 모아봅니다.</p>
+      <div class="card-grid">
+        <a href="#" class="card"><div class="card-visual"></div><h3>마음을 읽는 심리학</h3><p>일상에서 만나는 심리학 이야기</p></a>
+        <a href="#" class="card"><div class="card-visual"></div><h3>관계와 성장</h3><p>심리학으로 보는 관계와 자기이해</p></a>
+        <a href="#" class="card"><div class="card-visual"></div><h3>감정과 인지</h3><p>감정을 이해하고 다루는 방법</p></a>
       </div>
     </div>
   </section>
 
-  <section class="section fade-in" id="contact">
+  <section class="section" id="ai">
+    <div class="container">
+      <div class="section-label blue">AI</div>
+      <h2>AI 연구소</h2>
+      <p class="section-desc">AI 활용과 자동화, 가능성과 한계를 다룹니다.</p>
+      <div class="card-grid">
+        <a href="#" class="card"><div class="card-visual"></div><h3>생성형 AI 활용</h3><p>일상과 업무에 바로 쓸 수 있는 방법</p></a>
+        <a href="#" class="card"><div class="card-visual"></div><h3>AI 자동화 사례</h3><p>반복 작업을 줄이는 실질적인 접근</p></a>
+        <a href="#" class="card"><div class="card-visual"></div><h3>AI와 사회</h3><p>기술이 개인과 사회에 미치는 영향</p></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="contact">
     <div class="container narrow">
-      <h2>Contact</h2>
-      <p class="contact-lead">강의, 협업, 제휴 문의를 환영합니다.</p>
-      <form class="contact-form" id="contact-form">
-        <div class="form-group">
-          <label>문의 유형</label>
-          <select id="inquiry-type">
-            <option value="lecture">강의 문의</option>
-            <option value="collab">협업 문의</option>
-            <option value="partner">제휴 문의</option>
-            <option value="etc">기타</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label>이름 <span class="required">*</span></label>
-          <input type="text" id="name" required>
-          <span class="error" id="name-error"></span>
-        </div>
-        <div class="form-group">
-          <label>이메일 <span class="required">*</span></label>
-          <input type="email" id="email" required>
-          <span class="error" id="email-error"></span>
-        </div>
-        <div class="form-group" id="org-group" style="display:none;">
-          <label>소속 / 기관</label>
-          <input type="text" id="organization">
-        </div>
-        <div class="form-group">
-          <label>문의 내용 <span class="required">*</span></label>
-          <textarea id="message" rows="5" required></textarea>
-          <span class="error" id="message-error"></span>
-        </div>
-        <button type="submit" class="btn navy">보내기</button>
+      <div class="section-label">Contact</div>
+      <h2>문의하기</h2>
+      <p class="section-desc">강의, 협업, 제휴 문의를 환영합니다.</p>
+      <form class="form" id="contact-form">
+        <select id="type">
+          <option value="lecture">강의 문의</option>
+          <option value="collab">협업 문의</option>
+          <option value="partner">제휴 문의</option>
+          <option value="etc">기타</option>
+        </select>
+        <input type="text" id="name" placeholder="이름 *" required>
+        <input type="email" id="email" placeholder="이메일 *" required>
+        <textarea id="message" placeholder="문의 내용 *" rows="5" required></textarea>
+        <button type="submit" class="btn primary">보내기</button>
       </form>
-      <p class="note">현재는 폼 UI만 제공됩니다. 실제 전송 기능은 추후 연결 예정입니다.</p>
     </div>
   </section>
 
-  <footer class="footer">
+  <footer>
     <div class="container">
-      <div class="footer-top"><div class="logo">서책방 마인드테크 랩</div><p>SEOCHAEKBANG MINDTECH LAB</p></div>
-      <p class="slogan-static">인간을 이해하고, 지능의 미래를 탐구하다.</p>
-      <div class="footer-bottom">© 2026 서책방 마인드테크 랩</div>
+      <p class="logo">서책방 마인드테크 랩</p>
+      <p>SEOCHAEKBANG MINDTECH LAB</p>
+      <p class="copy">© 2026 서책방 마인드테크 랩</p>
     </div>
   </footer>
   <script src="script.js"></script>
